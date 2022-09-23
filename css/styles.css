@@ -7,6 +7,7 @@
     list-style: none;
 }
 
+
 .cleart {
     text-decoration: none;
 }
@@ -88,3 +89,99 @@
     cursor: pointer;
     color: FFFFFF;
 }
+
+.list-peculiarity {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.text-peculiarity {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.70;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.tasks {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.name-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.profession-team {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* -----END HERO */
+
+/* -----FOOTER----- */
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.20;
+    letter-spacing: 0.03em;
+    color: FFFFFF;
+    /*  ПОМЕНЯТЬ ЦВЕТ */
+}
+
+.logo-finish {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.20;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.link-mail-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.70;
+    letter-spacing: 0.03em;
+    color: FFFFFF;
+    /* поменять цвет */
+}
+
+.link-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: gba(255, 255, 255, 0.6)
+        /* поменять цвет */
+}
+
+/* ----END FOOTER---- */
