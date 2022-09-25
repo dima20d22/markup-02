@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-    <!--  место для шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/pstyles.css">
 
 </head>
@@ -17,13 +20,13 @@
             <a class="logo" href="./index.html"><span class="logo-start">Web</span>Studio</a>
             <ul class="header-menu">
                 <li class="header-list">
-                    <a href="">Студия</a>
+                    <a class="header-info" href="">Студия</a>
                 </li>
                 <li class="header-list">
-                    <a href="">Портфолио</a>
+                    <a class="header-info" href="">Портфолио</a>
                 </li>
                 <li class="header-list">
-                    <a href="">Контакты</a>
+                    <a class="header-info" href="">Контакты</a>
                 </li>
             </ul>
         </nav>
@@ -37,80 +40,74 @@
         </ul>
     </header>
     <main>
-        <section>
-            <h2 hidden>меню</h2>
-            <ul>
-                <li class="hero-list">
-                    <button class="modal-btn" type="button">Все</button>
-                </li>
-                <li class="hero-list">
-                    <button class="modal-btn" type="button">Веб-сайты</button>
-                </li>
-                <li class="hero-list">
-                    <button class="modal-btn" type="button">Приложения</button>
-                </li>
-                <li class="hero-list">
-                    <button class="modal-btn" type="button">Дизайн</button>
-                </li>
-                <li class="hero-list">
-                    <button class="modal-btn" type="button">Маркетинг</button>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2 hidden>foto</h2>
-            <ul class="sections">
-                <li>
-                    <img class="list-img" src="./images/portfolio/minilopimg.jpg" alt="ноутбук со списком">
-                    <h3 class="name">Технокряк</h3>
-                    <p class="chapter">Веб-сайт</p>
-                </li>
-                <li>
-                    <img class="list-img" src="./images/portfolio/basketimg.jpg" alt="basket">
-                    <h3 class="name">Постер New Orlean vs Golden Star</h3>
-                    <p class="chapter">Дизайн</p>
-                </li>
-                <li>
-                    <img class="list-img" src="./images/portfolio/fischimg.jpg" alt="fisch">
-                    <h3 class="name">Ресторан Seafood</h3>
-                    <p class="chapter">Приложение</p>
-                </li>
-                <li>
-                    <img class="list-img" src="./images/portfolio/kopfhoimg.jpg" alt="наушники">
-                    <h3 class="name">Проект Prime</h3>
-                    <p class="chapter">Маркетинг</p>
-                </li>
-                <li>
-                    <img class="list-img" src="./images/portfolio/boximg.jpg" alt="хуй пойми что">
-                    <h3 class="name">Проект Boxes</h3>
-                    <p class="chapter">Приложение</p>
+        <ul>
+            <li class=maino-list">
+                <button class="modal-btn" type="button">Все</button>
+            </li>
+            <li class="main-list">
+                <button class="modal-btn" type="button">Веб-сайты</button>
+            </li>
+            <li class="main-list">
+                <button class="modal-btn" type="button">Приложения</button>
+            </li>
+            <li class="main-list">
+                <button class="modal-btn" type="button">Дизайн</button>
+            </li>
+            <li class="main-list">
+                <button class="modal-btn" type="button">Маркетинг</button>
+            </li>
+        </ul>
+        <ul class="sections">
+            <li>
+                <img class="list-img" src="./images/portfolio/minilopimg.jpg" alt="ноутбук со списком">
+                <h3 class="name">Технокряк</h3>
+                <p class="chapter">Веб-сайт</p>
+            </li>
+            <li>
+                <img class="list-img" src="./images/portfolio/basketimg.jpg" alt="basket">
+                <h3 class="name">Постер New Orlean vs Golden Star</h3>
+                <p class="chapter">Дизайн</p>
+            </li>
+            <li>
+                <img class="list-img" src="./images/portfolio/fischimg.jpg" alt="fisch">
+                <h3 class="name">Ресторан Seafood</h3>
+                <p class="chapter">Приложение</p>
+            </li>
+            <li>
+                <img class="list-img" src="./images/portfolio/kopfhoimg.jpg" alt="наушники">
+                <h3 class="name">Проект Prime</h3>
+                <p class="chapter">Маркетинг</p>
+            </li>
+            <li>
+                <img class="list-img" src="./images/portfolio/boximg.jpg" alt="хуй пойми что">
+                <h3 class="name">Проект Boxes</h3>
+                <p class="chapter">Приложение</p>
 
-                </li>
-                <li> <img class="list-img" src="./images/portfolio/bildschimg.jpg" alt="bildschirm">
-                    <h3 class="name">Inspiration has no Borders</h3>
-                    <p class="chapter">Веб-сайт</p>
-                </li>
-                <li> <img src="./images/portfolio/buchimg.jpg" alt="buch">
-                    <h3 class="name">Издание Limited Edition</h3>
-                    <p> class="chapter" Дизайн</p>
-                </li>
-                <li> <img class="list-img" src="./images/portfolio/tabimg.jpg" alt="tab">
-                    <h3 class="name">Проект LAB</h3>
-                    <p class="chapter">Маркетинг</p>
-                </li>
-                <li> <img class="list-img" src="./images/portfolio/loptopimg.jpg" alt="loptop">
-                    <h3 class="name">Growing Business</h3>
-                    <p class="chapter">Приложение</p>
-                </li>
-            </ul>
-        </section>
+            </li>
+            <li> <img class="list-img" src="./images/portfolio/bildschimg.jpg" alt="bildschirm">
+                <h3 class="name">Inspiration has no Borders</h3>
+                <p class="chapter">Веб-сайт</p>
+            </li>
+            <li> <img src="./images/portfolio/buchimg.jpg" alt="buch">
+                <h3 class="name">Издание Limited Edition</h3>
+                <p> class="chapter" Дизайн</p>
+            </li>
+            <li> <img class="list-img" src="./images/portfolio/tabimg.jpg" alt="tab">
+                <h3 class="name">Проект LAB</h3>
+                <p class="chapter">Маркетинг</p>
+            </li>
+            <li> <img class="list-img" src="./images/portfolio/loptopimg.jpg" alt="loptop">
+                <h3 class="name">Growing Business</h3>
+                <p class="chapter">Приложение</p>
+            </li>
+        </ul>
     </main>
     <footer>
         <a class="footer-logo" href="./index.html"><span class="logo-finish">Web</span>Studio</a>
         <address class="address">
             <ul>
                 <li class="footer-list">
-                    <a class="footer-link" href="https://goo.gl/maps/mfd53RpsewYsdwgU8" target="_blank"
+                    <a class="footer-address-link" href="https://goo.gl/maps/mfd53RpsewYsdwgU8" target="_blank"
                         rel="noopener nooreferrer">г. Киев,
                         пр-т Леси
                         Украинки, 26</a>
