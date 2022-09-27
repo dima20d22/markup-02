@@ -120,7 +120,7 @@ a {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.70;
     letter-spacing: 0.03em;
     color: FFFFFF;
     /* поменять цвет */
@@ -130,7 +130,7 @@ a {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.70;
     letter-spacing: 0.03em;
     color: gba(255, 255, 255, 0.6);
     /*  поменять цвет добавить букву -r- */
